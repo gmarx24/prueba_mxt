@@ -13,7 +13,7 @@ $mensaje = "
     mensaje: ".$mensaje."
 ";
 
-mail($para, $asunto, utf8_decode($mensaje));
+mail($para,$asunto,utf8_decode($mensaje));
 
 header ("location: index.html");
 
